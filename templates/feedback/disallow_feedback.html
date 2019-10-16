@@ -1,0 +1,7 @@
+{% extends "feedback/success_base.html" %}
+
+{% block success %}
+    <br/>
+    <h3 style="text-align: center">Thanks, {{ current_user.name }}! We have recorded your recent feedback.</h3>
+    <p style="text-align: center">To provide another feedback, please sign out and try again.</p>
+{% endblock %}

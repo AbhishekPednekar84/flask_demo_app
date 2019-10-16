@@ -1,0 +1,14 @@
+{% extends "./shared/_layout.html" %}
+
+{% block head %}
+    {{ super() }}
+{%  endblock head %}
+
+{% block content %}
+    <img width="1500" height="300" alt="jumbo" src="../../static/images/jumbo.jpg">
+
+    <div class="container">
+        {% block success %}
+        {% endblock %}
+    </div>
+{% endblock content %}

@@ -1,0 +1,4 @@
+[run]
+branch = True
+source = C:\Learning\Python\flask-feedback
+omit = C:\Learning\Python\flask-feedback\venv\*

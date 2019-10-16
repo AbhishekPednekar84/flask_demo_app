@@ -1,0 +1,23 @@
+{% extends "./shared/_layout.html" %}
+
+{% block head %}
+    {{ super() }}
+{%  endblock head %}
+
+{% block content %}
+    <img width="1500" height="350" alt="jumbo" src="../../static/images/jumbo.jpg">
+    <div class="row">
+        <div class="col">
+            <br/>
+            <h3 style="text-align: center">Farm Fresh Produce</h3>
+            <p style="padding: 15px">If you are looking for fresh organic produce, you have come to the right place.
+            Our mission is to guarantee organically grown, pesticide free vegetables and fruits delivered right
+             at your doorstep. You can also visit our farms and cultivate or pick your favorite fruits and vegetables yourself. If at any time,
+                you are not satisfied with the quality of the produce, you will be fully refunded. No questions asked!</p>
+            <p style="text-align: center">Well, what are you waiting for?
+                <a href="{{ url_for('register.register') }}">Register</a> today!</p>
+            <p style="text-align: center">Already registered?
+                <a href="{{ url_for('user.login') }}">Sign In</a></p>
+        </div>
+    </div>
+{% endblock content %}
