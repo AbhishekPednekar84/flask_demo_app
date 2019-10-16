@@ -1,4 +1,2 @@
 [run]
 branch = True
-source = flask_demo_app/
-omit = /venv/*
