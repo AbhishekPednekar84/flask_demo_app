@@ -6,5 +6,5 @@ script:
   - coverage run -m tests.test_app
 after_success:
   - coverage report
-  - coverage-badge -o coverage.svg
+  - coverage-badge -o https://github.com/AbhishekPednekar84/flask_demo_app/coverage.svg
 
