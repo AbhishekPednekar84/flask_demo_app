@@ -1,7 +1,7 @@
 # Flask Demo Application 
 [![Build Status](https://travis-ci.org/AbhishekPednekar84/flask_demo_app.svg?branch=master)](https://travis-ci.org/AbhishekPednekar84/flask_demo_app) [![Coverage Status](https://coveralls.io/repos/github/AbhishekPednekar84/flask_demo_app/badge.svg)](https://coveralls.io/github/AbhishekPednekar84/flask_demo_app)
 
-## Setps to run a local setup
+## Steps to run a local setup
 1. Clone the repository - `git clone https://github.com/AbhishekPednekar84/flask_demo_app`
 2. Create and activate a virtual rnvironment
 3. Install dependencies - `pip install -r requirements.txt`
