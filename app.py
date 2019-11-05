@@ -1,4 +1,6 @@
 import flask
+
+from commands import create_tables
 from db import db
 from lm import login_manager
 from config import Config
@@ -25,6 +27,8 @@ def create_app(config_class=Config):
     app.register_blueprint(login_views.blueprint)
     app.register_blueprint(register_views.blueprint)
     app.register_blueprint(home_views.home_blueprint)
+
+    app.cli.add_command(create_tables)
 
     return app
 
