@@ -14,3 +14,6 @@ https://bit.ly/flask-app
 8. To run the application - `python app.py`
 
 **Note**: Remember to omit your virtual environment directory in *.coveragerc* before running `coverage report -m`
+
+## Deployment
+The application has been deployed in Heroku. Refer to [this](https://www.codedisciples.in/flask-heroku.html) article on [Code Disciples](https://codedisciples.in) for the complete deployment steps.
