@@ -16,4 +16,8 @@ https://bit.ly/flask-app
 **Note**: Remember to omit your virtual environment directory in *.coveragerc* before running `coverage report -m`
 
 ## Deployment
-The application has been deployed in Heroku. Refer to [this](https://www.codedisciples.in/flask-heroku.html) article on [Code Disciples](https://codedisciples.in) for the complete deployment steps.
+The application has been deployed on Heroku. Refer to [this](https://www.codedisciples.in/flask-heroku.html) article on [Code Disciples](https://codedisciples.in) for the complete deployment steps.
+
+For steps on how to deploy the application on a Virtual Private Server, refer to the following articles -
+1. [Deploying a Python application on a Linux server - Part I](https://www.codedisciples.in/linux-vps-deployment1.html)
+2. [Deploying a Python application on a Linux server - Part II](https://www.codedisciples.in/linux-vps-deployment2.html)
